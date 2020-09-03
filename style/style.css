@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navig {
+    background-color: transparent !important;
+    padding: 20px 50px;
+}
+
+.navbar-brand {
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.767) !important;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+
+nav ul li.active a,
+nav ul li a:hover {
+    background-color: purple !important;
+    border-radius: 5px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Picture Credit = By Harli Marten on Unsplash */
+    background-image: url(img/banner.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    color: purple;
+    font-size: 55px;
+}
+
+.content p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+input {
+    width: 60vw;
+    height: 50px;
+    border-color: purple;
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    padding: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+button {
+    width: 10vw;
+    height: 50px;
+    background-color: purple;
+    border-color: purple;
+    color: rgba(255, 255, 255, 0.925);
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    padding: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.925);
+    border-color: rgba(255, 255, 255, 0.925);
+    color: purple;
+}
+
+.search-bar p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 17px;
+    color: purple;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.search-bar p a {
+    color: rgb(206, 98, 134);
+}
+
+aside {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Picture Credit = By Harli Marten on Unsplash */
+    background-image: url(img/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.result-container {
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    width: 70vw;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 400px;
+}
