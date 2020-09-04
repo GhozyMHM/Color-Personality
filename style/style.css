@@ -57,6 +57,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 120px;
 }
 
 .content {
@@ -122,7 +123,7 @@ button:hover {
 }
 
 aside {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +150,7 @@ the-result {
     height: 400px;
     background-color: rgb(243, 240, 240);
     position: absolute;
-    top: 400px;
+    top: 450px;
     border: 2px solid purple;
     border-radius: 8px;
     padding: 20px;
