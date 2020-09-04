@@ -1,5 +1,8 @@
 import "./component/nav-bar.js";
 import "./component/title-content.js";
+import main from "./main.js";
+
+document.addEventListener("DOMContentLoaded", main);
 
 var navbar = document.getElementsByClassName('navig')[0]
 
