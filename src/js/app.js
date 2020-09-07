@@ -1,4 +1,8 @@
+import "../style/style.css";
+import $ from "jquery";
+import moment from "moment";
 import "./component/nav-bar.js";
+import "./component/show-date.js";
 import "./component/title-content.js";
 import main from "./main.js";
 
@@ -13,3 +17,10 @@ window.onscroll = function () {
         navbar.style.background = "transparent";
     }
 }
+
+const displayDate = () => {
+    moment.locale("id");
+    $(".date").text(moment().format("LL"));
+};
+
+displayDate();
