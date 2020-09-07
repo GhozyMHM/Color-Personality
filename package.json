@@ -1,0 +1,19 @@
+{
+  "name": "color-personality",
+  "version": "1.0.0",
+  "description": "Know your personality by typing your favorite color in this website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhozyMHM/Color-Personality.git"
+  },
+  "author": "GhozyMHM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhozyMHM/Color-Personality/issues"
+  },
+  "homepage": "https://github.com/GhozyMHM/Color-Personality#readme"
+}
